@@ -1,15 +1,12 @@
 import numpy as np
 from data import stock
 
-print(stock)
-# Utilisation de numpy pour effectuer des calculs : somme 
+# print(stock)
 
-# valeur_totale = np.sum(quantité *prix_unitaire)
-# print(" La valeur de stock : ", valeur_totale,"DH")
+quantites = np.array([item[1] for item in stock])
+print(quantites)
+prix = np.array([item[2] for item in stock])
 
-
-# ● Valeur totale du stock (somme(prix * quantité)).
-# ● Prix moyen des produits.
-# ● Prix minimum et maximum.
-# ● Produit le plus cher et le moins cher.
+# valeur_tot = np.sum(quantites*prix)
+# print(f"La valeur totale est : {valeur_tot} DH")
 
