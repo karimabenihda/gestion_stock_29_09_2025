@@ -1,1 +1,3 @@
 stock_venv/
+__pycache__/
+env/
