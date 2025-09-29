@@ -28,6 +28,14 @@ print("Le minimum de prix : ", min_prix)
 max_prix= max(prix)
 print("Le maximum de prix : ", max_prix)
 
+# Produit le plus cher :
+produit_le_plus_cher= max(stock, key = lambda produit : produit[2])
+print("Le produit le plus cher est :", produit_le_plus_cher)
+# Produit le moins cher :
+
+produit_le_moins_cher= min(stock, key = lambda produit : produit[2])
+print("Le produit le moins cher est :", produit_le_moins_cher)
+
 
 
 
