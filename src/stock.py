@@ -12,7 +12,7 @@ arr3=np.append(arr3,added_price)
 
 #supprimer un produits
 to_delete=input("entrer le nom produit que voulez supprimer: ")
-index = np.where(arr1 == to_delete)[0][0]
+index = np.where(arr1 == to_delete)
 
 np.delete(arr1,index)
 print(arr1)

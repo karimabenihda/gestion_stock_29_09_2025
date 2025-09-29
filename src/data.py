@@ -8,4 +8,4 @@ arr1= np.array(nom_produit)
 arr2= np.array(prix_unitaire)
 arr3= np.array(quantité)
 print(arr1,arr2,arr3)
- 
+
