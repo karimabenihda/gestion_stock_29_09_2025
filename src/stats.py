@@ -1,12 +1,36 @@
 import numpy as np
 from data import stock
+print(stock)
 
-# print(stock)
 
 quantites = np.array([item[1] for item in stock])
 print(quantites)
 prix = np.array([item[2] for item in stock])
 
-# valeur_tot = np.sum(quantites*prix)
-# print(f"La valeur totale est : {valeur_tot} DH")
+# Calculs
+valeurs_par_article = quantites * prix
+valeur_totale = np.sum(valeurs_par_article)
+print("Valeur du stock par article :", valeurs_par_article)
+print(f" La valeur totale est : {valeur_totale} DH " )
+
+#  Prix moyen des produits
+x=len(stock)
+print(x)
+prix_moyen = sum(item [2] for item in stock) / x
+print( "La valeur moyenne des prix : ", prix_moyen)
+
+# Prix minimum :
+
+min_prix= min(prix)
+print("Le minimum de prix : ", min_prix)
+
+# Prix maximum : 
+max_prix= max(prix)
+print("Le maximum de prix : ", max_prix)
+
+
+
+
+
+
 
