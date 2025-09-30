@@ -1,7 +1,6 @@
 import numpy as np
 from data import stock
 
-
 def afficher_stats():
     if not stock:
         print("Stock vide.")
@@ -15,10 +14,6 @@ def afficher_stats():
     print(f"Valeur totale du stock : {valeur_totale} unités monétaires")
     print(f"Produit le plus en stock : {produit_max[0]} ({produit_max[1]} unités)")
     print(f"Produit le moins en stock : {produit_min[0]} ({produit_min[1]} unités)")
-
-
-
-
 
 print(stock)
 

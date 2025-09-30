@@ -1,4 +1,4 @@
-  
+#ajouter un produits
 def ajouter(l):
     added_product=input('entre product name: ')
     added_qte=int(input('entre product quantity: '))
@@ -34,5 +34,6 @@ def modifier(l):
     l[index]=[to_edit_name,to_edit_qte,to_edit_price]
     print(l)
 
+#afficher un produits
 def afficher(l):
     print(l)

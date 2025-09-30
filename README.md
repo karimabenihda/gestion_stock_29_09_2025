@@ -28,7 +28,6 @@
 
 ## *Structure du projet*
 
-
 ![Fournitures scolaires](src/image/Capture.png)
 
 ### 2-5-Statistiques :
