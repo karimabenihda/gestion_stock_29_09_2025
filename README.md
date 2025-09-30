@@ -67,7 +67,7 @@ Voici les options disponibles :
 8-Quitter.*
 
 ### 2-8- Sructure du projet :
-*Fatima MACHAY_ Karim_Aben_Ihda.*
+*Fatima MACHAY_ Karima_Ben_Ihda.*
 
 ### 2-9- Sructure du projet :
 
