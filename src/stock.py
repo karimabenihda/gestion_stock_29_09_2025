@@ -33,3 +33,6 @@ def modifier(l):
 
     l[index]=[to_edit_name,to_edit_qte,to_edit_price]
     print(l)
+
+def afficher(l):
+    print(l)
