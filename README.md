@@ -27,17 +27,9 @@
 ### 2-4-Structure des fichiers :
 
 ## *Structure du projet*
-stock-manager/
-── src/
-├── main.py # Point d’entrée, menu principal
-├── stock.py # Fonctions de gestion du stock
-(ajout,suppression, mise à jour…)
-├── stats.py # Fonctions de calculs statistiques avec numpy
-├── visualize.py # Fonctions de visualisation avec matplotlib
-│── menu.py # Menu interactif (console)
-│── README.md # Documentation du projet
-│── requirements.txt # Dépendances (numpy, matplotlib)
-│── .gitignore
+
+
+![Fournitures scolaires]((C:\Users\Latitude\Pictures\Capture d’écran (1208))C
 
 ### 2-5-Statistiques :
 
