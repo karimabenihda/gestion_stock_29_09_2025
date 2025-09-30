@@ -62,9 +62,9 @@ Voici les options disponibles :
 
 5-Afficher les statistiques;
 
-6-Afficher un graphique (bar chart ou pie chart);
-
-7-Quitter.*
+6-Afficher un graphique de barres ;
+7-Afficher un graphique de pie ;
+8-Quitter.*
 
 ### 2-8- Sructure du projet :
 *Fatima MACHAY_ Karim_Aben_Ihda.*
