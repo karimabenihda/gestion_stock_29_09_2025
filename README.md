@@ -29,7 +29,7 @@
 ## *Structure du projet*
 
 
-![Fournitures scolaires]((C:\Users\Latitude\Pictures\Capture d’écran (1208))C
+![Fournitures scolaires]((C:\Users\Latitude\Pictures\Capture d’écran (1208))
 
 ### 2-5-Statistiques :
 
