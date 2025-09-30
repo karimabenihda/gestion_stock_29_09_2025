@@ -55,8 +55,27 @@ stock-manager/
 
 ### 2-7-Interface console :
 
-#### *Menu interactif pour accéder facilement à toutes les fonctionnalités.*
+ *Menu interactif pour accéder facilement à toutes les fonctionnalités.
+ L'application fonctionne via une interface console (texte), à travers un menu interactif proposé à l'utilisateur dans le fichier `main.py`.
 
-Structure du projet
+Voici les options disponibles :
 
+*1- Ajouter un produit;
+
+2- Supprimer un produit;
+
+3- Modifier la quantité d’un produit;
+
+4-Afficher le stock;
+
+5-Afficher les statistiques;
+
+6-Afficher un graphique (bar chart ou pie chart);
+
+7-Quitter.*
+
+### 2-8- Sructure du projet :
+*Fatima MACHAY_ Karim_Aben_Ihda.*
+
+### 2-9- Sructure du projet :
 
