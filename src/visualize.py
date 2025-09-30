@@ -28,3 +28,6 @@ def pie(stock):
 
     plt.title(" répartition de la valeur totale du stock par produit. ")
     plt.show()
+ 
+
+ 
