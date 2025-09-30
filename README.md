@@ -8,39 +8,55 @@
 
 ### 2-1-Gestion du stock :
 
-#### ✅ Ajouter un produit;
-#### ✅ Supprimer un produit;
-#### ✅ modification des produits (nom, quantité, prix);
-#### ✅ Affichage du stock actuel.
+#### ✅ *Ajouter un produit;*
+#### ✅ *Supprimer un produit;*
+#### ✅ *modification des produits (nom, quantité, prix);*
+#### ✅ *Affichage du stock actuel.*
 
 ### 🖥️ 2-2-Installation: 
-#### Étapes pour installer et exécuter le projet :
+*Étapes pour installer et exécuter le projet :*
 
-#### Installation :
+#### *- Installation :*
 #### 1. Cloner le dépôt;
 #### 2. Installer les dépendances;
 #### 3. Lancer le script principal
 ###  2-3-Technologies utilisées :
-#### Technologies :
-##### - Python 3.11
-##### - Matplotlib
+#### *- Technologies :*
+#### *- Python 3.11*
+#### *- Matplotlib*
 ### 2-4-Structure des fichiers :
+
+## *Structure du projet*
+stock-manager/
+── src/
+├── main.py # Point d’entrée, menu principal
+├── stock.py # Fonctions de gestion du stock
+(ajout,suppression, mise à jour…)
+├── stats.py # Fonctions de calculs statistiques avec numpy
+├── visualize.py # Fonctions de visualisation avec matplotlib
+│── menu.py # Menu interactif (console)
+│── README.md # Documentation du projet
+│── requirements.txt # Dépendances (numpy, matplotlib)
+│── .gitignore
 
 ### 2-5-Statistiques :
 
-#### Calcul de la valeur totale du stock.
+#### *Calcul de la valeur totale du stock.*
  
-#### Prix moyen, minimum, maximum.
+#### *Prix moyen, minimum, maximum.*
 
-#### Identification du produit le plus cher et du moins cher.
+#### *Identification du produit le plus cher et du moins cher.*
 
-### 2-3-Visualisations :
+### 2-6-Visualisations :
 
-#### - Diagramme en barres : quantité par produit;
+#### *- Diagramme en barres : quantité par produit;*
 
-#### - Diagramme circulaire : part de chaque produit dans la valeur totale du stock.
+#### *- Diagramme circulaire : part de chaque produit dans la valeur totale du stock.*
 
-### 2-4-Interface console :
+### 2-7-Interface console :
 
-#### Menu interactif pour accéder facilement à toutes les fonctionnalités.
+#### *Menu interactif pour accéder facilement à toutes les fonctionnalités.*
+
+Structure du projet
+
 
