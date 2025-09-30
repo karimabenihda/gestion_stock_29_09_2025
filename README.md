@@ -8,23 +8,39 @@
 
 ### 2-1-Gestion du stock :
 
-##### ✅ Ajout, suppression, modification des produits (nom, quantité, prix).
+#### ✅ Ajouter un produit;
+#### ✅ Supprimer un produit;
+#### ✅ modification des produits (nom, quantité, prix);
+#### ✅ Affichage du stock actuel.
 
-##### ✅ Affichage du stock actuel.
+### 🖥️ 2-2-Installation: 
+#### Étapes pour installer et exécuter le projet :
 
-### 2-2-Statistiques :
+#### Installation :
+#### 1. Cloner le dépôt;
+#### 2. Installer les dépendances;
+#### 3. Lancer le script principal
+###  2-3-Technologies utilisées :
+#### Technologies :
+##### - Python 3.11
+##### - Matplotlib
+### 2-4-Structure des fichiers :
 
-##### Calcul de la valeur totale du stock.
+### 2-5-Statistiques :
+
+#### Calcul de la valeur totale du stock.
  
-##### Prix moyen, minimum, maximum.
+#### Prix moyen, minimum, maximum.
 
-##### Identification du produit le plus cher et du moins cher.
+#### Identification du produit le plus cher et du moins cher.
 
 ### 2-3-Visualisations :
 
-##### - Diagramme en barres : quantité par produit.
+#### - Diagramme en barres : quantité par produit;
 
-##### - Diagramme circulaire : part de chaque produit dans la valeur totale du stock.
+#### - Diagramme circulaire : part de chaque produit dans la valeur totale du stock.
+
 ### 2-4-Interface console :
 
-#####  Menu interactif pour accéder facilement à toutes les fonctionnalités.
+#### Menu interactif pour accéder facilement à toutes les fonctionnalités.
+
