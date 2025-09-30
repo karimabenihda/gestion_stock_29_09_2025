@@ -1,4 +1,5 @@
 import numpy as np
+import  matplotlib as plt
 from data import stock
 
 def trouver_produit(nom):
