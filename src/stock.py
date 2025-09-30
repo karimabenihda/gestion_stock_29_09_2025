@@ -1,19 +1,38 @@
-from data import arr1,arr2,arr3
-import numpy as np
-
-added_product=input('entre product name: ')
-added_qte=int(input('entre product quantity: '))
-added_price=input('entre product price: ')
-
-arr1=np.append(arr1,added_product)
-arr2=np.append(arr2,added_qte)
-arr3=np.append(arr3,added_price)
-
+  
+def ajouter(l):
+    added_product=input('entre product name: ')
+    added_qte=int(input('entre product quantity: '))
+    added_price=float(input('entre product price: '))
+    l.append([added_product,added_qte,added_price])
+    print(l)
 
 #supprimer un produits
-to_delete=input("entrer le nom produit que voulez supprimer: ")
-index = np.where(arr1 == to_delete)[0][0]
+def supprimer(l):
+    to_delete=input("entrer le nom produit que voulez supprimer: ")
+    for i,element in enumerate (l):
+        if element[0]==to_delete:
+            index=i
+            print(index)
 
-np.delete(arr1,index)
-print(arr1)
+    if l.pop(index):
+        print(f"{element[0]} deleted seccessfully")
+    print(l)
 
+  
+#modify un produits
+def modifier(l):
+    to_delete=input("entrer le nom produit que voulez modifier: ")
+    to_edit_name=input("entrer le nom produit: ")
+    to_edit_qte=int(input("entrer la quantite produit: "))
+    to_edit_price=float(input("entrer le prix produit: "))
+
+    for i,element in enumerate (l):
+        if element[0]==to_delete:
+            index=i
+            print(index)
+
+    l[index]=[to_edit_name,to_edit_qte,to_edit_price]
+    print(l)
+
+def afficher(l):
+    print(l)
